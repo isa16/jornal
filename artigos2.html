@@ -1,4 +1,4 @@
-<!--PAGINA TERCIARIA-->
+<!--PAGINA SECUNDARIA-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,8 +15,8 @@
     <link rel="stylesheet" type="text/css" href="public/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="public/plugins/OwlCarousel2-2.2.1/animate.css">
     <link rel="stylesheet" type="text/css" href="public/plugins/jquery.mb.YTPlayer-3.1.12/jquery.mb.YTPlayer.css">
-    <link rel="stylesheet" type="text/css" href="public/styles/category.css">
-    <link rel="stylesheet" type="text/css" href="public/styles/category_responsive.css">
+    <link rel="stylesheet" type="text/css" href="public/styles/post.css">
+    <link rel="stylesheet" type="text/css" href="public/styles/post_responsive.css">
     <link rel="short icon" href="public/images/news.png">
 </head>
 
@@ -36,15 +36,15 @@
                                 <ul>
                                     <li class="active"><a href="index.html">Home</a></li>
                                     <li><a href="artigos.html">Artigos</a></li>
-                                    <li><a href="#">Videos</a></li>
-                                    <li><a href="notices.html">Noticias</a></li>
+                                    <li><a href="#">Vídeos</a></li>
+                                    <li><a href="notices.html">Notícias</a></li>
                                     <li><a href="anuncios.html">Anúncios</a></li>
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </nav>
                             <div class="search_container ml-auto">
                                 <div class="weather">
-                                    <div class="temperature">+30°</div>
+                                    <div class="temperature">+35°</div>
                                     <img class="weather_icon" src="public/images/cloud.png" alt="">
                                 </div>
                                 <form action="#">
@@ -62,11 +62,41 @@
             </div>
         </header>
 
+        <!-- Menu -->
+
+        <div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+            <div class="menu_close_container">
+                <div class="menu_close">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="logo menu_mm"><a href="#">Jornal IFMS</a></div>
+            <div class="search">
+                <form action="#">
+                    <input type="search" class="header_search_input menu_mm" required="required" placeholder="Type to Search...">
+                    <img class="header_search_icon menu_mm" src="public/images/search_2.png" alt="">
+                </form>
+            </div>
+            <nav class="menu_nav">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="artigos.html">Artigos</a></li>
+                    <li><a href="#">Vídeos</a></li>
+                    <li><a href="notices.html">Notícias</a></li>
+                    <li><a href="anuncios.html">Anúncios</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
         <!-- Home -->
 
         <div class="home">
-            <div class="home_background parallax-window" data-parallax="scroll" data-image-src="public/images/category.jpg"
-                data-speed="0.8"></div>
+            <div class="home_slider_background" style="background-image:url(public/images/home_slider.jpg)"></div>
+            <div class="home_content">
+                <div class="post_title">Bem vindo ao artigo da Priscila </div>
+            </div>
         </div>
 
         <!-- Page Content -->
@@ -75,167 +105,146 @@
             <div class="container">
                 <div class="row row-lg-eq-height">
 
-                    <!-- Main Content -->
+                    <!-- Post Content -->
 
                     <div class="col-lg-9">
-                        <div class="main_content">
+                        <div class="post_content">
 
-                            <!-- Category -->
-
-                            <div class="category">
-                                <div class="section_panel d-flex flex-row align-items-center justify-content-start">
-                                    <div class="section_title">Notícias</div>
-                                    <div class="section_tags ml-auto">
-                                        <ul>
-                                            <li class="active"><a href="notices.html">local</a></li>
-                                            <li><a href="notices.html">do país</a></li>
-                                            <li><a href="notices.html">mundial</a></li>
-                                        </ul>
-                                    </div>
-                                    
-                                </div>
-                                <div class="section_content">
-                                    <div class="grid clearfix">
-
-                                        <!-- Small Card With Image -->
-                                        <div class="card card_small_with_image grid-item">
-                                            <img class="card-img-top" src="public/images/sicredi.PNG" alt="">
-                                            <div class="card-body">
-                                                <div class="card-title card-title-small"><a href="https://www.novanews.com.br/noticias/cidades/moderna-agencia-da-sicredi-centro-sul-ms-sera-inaugurada-neste-sabado-06-em-nova-andradina">Moderna
-                                                        agência da Sicredi Centro-Sul MS será inaugurada neste sábado
-                                                        (06) em Nova Andradina</a></div>
-                                                <small class="post_meta"><a href="#">Acácio Gomes</a><span>Abr 2, 2019
-                                                        at 10:01 am</span></small>
-                                            </div>
-                                        </div>
-
-                                        <!-- Small Card Without Image -->
-                                        <div class="card card_default card_small_no_image grid-item">
-                                            <div class="card-body">
-                                                <div class="card-title card-title-small"><a href="https://www.novanews.com.br/noticias/cidades/prefeitura-de-anaurilandia-investe-na-capacitacao-de-servidores">Anaurilândia
-                                                        investe na capacitação de servidores</a></div>
-                                                <small class="post_meta"><a href="#">Acácio Gomes</a><span>Abr 02, 2019
-                                                        at 8:49 am</span></small>
-                                            </div>
-                                        </div>
-
-                                        <!-- Small Card With Image -->
-                                        <div class="card card_small_with_image grid-item">
-                                            <img class="card-img-top" src="public/images/cross.PNG" alt="">
-                                            <div class="card-body">
-                                                <div class="card-title card-title-small"><a href="https://www.novanews.com.br/noticias/esportes/primeiro-box-de-cross-e-inaugurado-em-nova-andradina">Primeiro
-                                                        box de ‘Cross’ é inaugurado em Nova Andradina</a></div>
-                                                <small class="post_meta"><a href="#">Publicidade</a><span>Abr 1, 2019
-                                                        at 15:06 am</span></small>
-                                            </div>
-                                        </div>
-
-                                        <!-- Small Card With Image -->
-                                        <div class="card card_small_with_image grid-item">
-                                            <img class="card-img-top" src="public/images/presidio.PNG" alt="https://unsplash.com/@jakobowens1">
-                                            <div class="card-body">
-                                                <div class="card-title card-title-small"><a href="https://www.novanews.com.br/noticias/policial/moradora-de-ivinhema-e-presa-ao-tentar-entrar-do-presidio-de-dourados-com-droga-na-vagina">Moradora
-                                                        de Ivinhema é presa ao tentar entrar do Presídio de Dourados
-                                                        com droga nas partes íntimas</a></div>
-                                                <small class="post_meta"><a href="#">Acácio Gomes</a><span>Abr 1, 2019
-                                                        at 7:32 am</span></small>
-                                            </div>
-                                        </div>
-
-                                        <!-- Small Card With Background -->
-                                        <div class="card card_default card_small_with_background grid-item">
-                                            <div class="card_background" style="background-image:url(public/images/moto.PNG)"></div>
-                                            <div class="card-body">
-                                                <div class="card-title card-title-small"><a href="https://www.novanews.com.br/noticias/policial/adolescente-e-apreendido-apos-ser-flagrado-por-bombeiro-com-motocicleta-furtada-em-nova-andradina">Adolescente
-                                                        é apreendido após ser flagrado por bombeiro com motocicleta
-                                                        furtada em Nova Andradina</a></div>
-                                                <small class="post_meta"><a href="#">Bárbara Ballestero</a><span>Abr 1,
-                                                        2019 at 9:29 am</span></small>
-                                            </div>
-                                        </div>
-
-                                        <!-- Small Card With Background -->
-                                        <div class="card card_default card_small_with_background grid-item">
-                                            <div class="card_background" style="background-image:url(public/images/foto.png)"></div>
-                                            <div class="card-body">
-                                                <div class="card-title card-title-small"><a href="https://www.novanews.com.br/noticias/variedades/anaurilandia-menina-fa-da-pm-ganha-festa-com-visita-surpresa-de-policiais">Anaurilândia:
-                                                        Menina fã da PM ganha festa com visita surpresa de policiais</a></div>
-                                                <small class="post_meta"><a href="#">Bárbara Ballestero</a><span>Mar
-                                                        30, 2019 at 18:42 am</span></small>
-                                            </div>
-                                        </div>
-
-                                        <!-- Small Card With Image -->
-                                        <div class="card card_small_with_image grid-item">
-                                            <img class="card-img-top" src="public/images/fff.PNG" alt="">
-                                            <div class="card-body">
-                                                <div class="card-title card-title-small"><a href="https://www.novanews.com.br/noticias/variedades/ator-nova-andradinense-interpreta-miliciano-barra-pesada-em-producao-do-cinema-carioca">Ator
-                                                        nova-andradinense interpreta miliciano barra pesada em produção
-                                                        do cinema carioca</a></div>
-                                                <small class="post_meta"><a href="#">Bárbara Ballestero</a><span>Mar
-                                                        29, 2097 at 9:53 am</span></small>
-                                            </div>
-                                        </div>
-
-                                        <!-- Small Card Without Image -->
-                                        <div class="card card_default card_small_no_image grid-item">
-                                            <div class="card-body">
-                                                <div class="card-title card-title-small"><a href="https://www.novanews.com.br/noticias/policial/homem-morre-com-a-cabeca-prensada-por-maquina-em-industria-de-dourados">Homem
-                                                        morre com a cabeça prensada por máquina em indústria de
-                                                        Dourados</a></div>
-                                                <small class="post_meta"><a href="#">Bárbara Ballestero</a><span>Abr 1,
-                                                        2019 at 12:48 am</span></small>
-                                            </div>
-                                        </div>
-
-                                        <!-- Small Card Without Image -->
-                                        <div class="card card_default card_small_no_image grid-item">
-                                            <div class="card-body">
-                                                <div class="card-title card-title-small"><a href="https://www.novanews.com.br/noticias/policial/jovem-e-preso-por-trafico-de-drogas-em-bataypora">Jovem
-                                                        é preso por tráfico de drogas em Batayporã</a></div>
-                                                <small class="post_meta"><a href="#">Bárbara Ballestero</a><span>Mar
-                                                        31, 2019 at 17:02 am</span></small>
-                                            </div>
-                                        </div>
-
-                                        <!-- Default Card With Background -->
-                                        <div class="card card_default card_default_with_background grid-item">
-                                            <div class="card_background" style="background-image:url(public/images/ifms.png)"></div>
-                                            <div class="card-body">
-                                                <div class="card-title card-title-small"><a href="https://www.novanews.com.br/noticias/cidades/ifms-de-nova-andradina-abre-chamada-publica-para-apoio-a-jogos-estudantis">IFMS
-                                                        de Nova Andradina abre chamada pública para apoio a Jogos
-                                                        Estudantis</a></div>
-                                            </div>
-                                        </div>
-
-                                        <!-- Default Card With Background -->
-                                        <div class="card card_default card_default_with_background grid-item">
-                                            <div class="card_background" style="background-image:url(public/images/pm.png)"></div>
-                                            <div class="card-body">
-                                                <div class="card-title card-title-small"><a href="https://www.novanews.com.br/noticias/policial/motociclista-embriagado-sofre-queda-ao-ser-abordado-pela-pm">Motociclista
-                                                        embriagado sofre queda ao ser abordado pela PM</a></div>
-                                            </div>
-                                        </div>
-
-                                        <!-- Small Card With Background -->
-                                        <div class="card card_default card_small_with_background grid-item">
-                                            <div class="card_background" style="background-image:url(public/images/cont.png)"></div>
-                                            <div class="card-body">
-                                                <div class="card-title card-title-small"><a href="https://www.novanews.com.br/noticias/policial/homem-que-estava-sendo-procurado-pela-justica-e-preso-pela-policia-militar-em-nova-andradina">Homem
-                                                        que estava sendo procurado pela Justiça é preso pela Polícia
-                                                        Militar em Nova Andradina</a></div>
-                                                <small class="post_meta"><a href="#">Bárbara Ballestero</a><span>Abr 1,
-                                                        2019 at 8:50 am</span></small>
-                                            </div>
-                                        </div>
-
-
-                                    </div>
+                            <!-- Top Panel -->
+                            <div class="post_panel post_panel_top d-flex flex-row align-items-center justify-content-start">
+                                <div class="post_share ml-sm-auto">
+                                    <span>share</span>
+                                    <ul class="post_share_list">
+                                        <li class="post_share_item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li class="post_share_item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li class="post_share_item"><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
 
+                            <!-- Post Body -->
+
+                            <div class="post_body">
+                                <p class="post_p">
+                                    <h2>Dificuldades na aceitação da beleza individuals</h2>
+
+                                    <p class="post_p"> Vivemos em uma sociedade onde somos automaticamente excluídos
+                                        dependendo do tipo físico que
+                                        possuímos, da roupa que usamos ou do jeito que nos comportamos perante às
+                                        pessoas. Essa exclusão social está
+                                        ligada ao ambiente da mídia, no qual há a realização de uma mutação nos
+                                        pensamentos das pessoas mostrando o
+                                        corpo perfeito para a sociedade, que seria representado por homens e mulheres
+                                        mais magros. Desta forma, muitos
+                                        indivíduos, destacando as mulheres, vão cada vez mais a fundo em busca de
+                                        padrões estéticos que precisam ser
+                                        atingidos para aceitação coletiva, já que não se sentem bem consigo mesmos. </p>
+
+                                    <p class="post_p"> As pessoas são manipuladas e acabam consumindo exageradamente
+                                        produtos de beleza, roupas da moda,
+                                        e até mesmo as plásticas e cirurgias não são dispensadas. Gradativamente,
+                                        distúrbios alimentares, como bulimia e
+                                        anorexia estão mais presentes em nosso meio, por pessoas que já desacreditaram
+                                        do seu corpo, sentindo incômodo e
+                                        vergonha, e com isso acabam prejudicando a saúde. Ilusão é acreditar que o topo
+                                        da felicidade é essa tal beleza
+                                        inalcançável e artificial que a mídia quer impor, e que acaba se tornando um
+                                        fator angustiante para o ser humano moderno. </p>
+
+
+                                    <p class="post_p"> A preocupação para se encaixar nos padrões de beleza é tão grave
+                                        que uma pesquisa realizada,
+                                        ao redor do mundo, pela marca de cosméticos Dove mostrou que apenas 4% das
+                                        6.400 mulheres entrevistadas se
+                                        sentem seguras para se definirem como belas. Entre as brasileiras, a
+                                        porcentagem é 14%. Além disso, 59% afirmam
+                                        sentir pressão para serem bonitas.
+                                        Para 32%, a maior cobrança vem delas mesmas, acima de sociedade (12%), amigos e
+                                        família (9%) e mídia (6%). </p>
+
+                                    <p class="post_p"> O que é o ser bonito ou ser feio e qual é a finalidade da
+                                        sociedade ao impor esses
+                                        padrões? Somos seres humanos com pensamentos diferentes, a partir dos quais
+                                        cada um vê o mundo de
+                                        uma forma. Assim, não tem o mínimo sentido a existência do feio e do bonito
+                                        como um padrão. O bonito
+                                        para uma pessoa pode não ser a mesma coisa na visão de outra. </p>
+
+                                    <p class="post_o">A antropóloga Mirela Berger percebeu essa “obrigação da beleza”
+                                        quando realizou uma pesquisa para
+                                        seu doutorado na Universidade de São Paulo. Houve mais de 60 entrevistadas e
+                                        nenhuma estava satisfeita com seu próprio corpo.
+                                        De acordo com ela: “A identidade está muito calcada na aparência e quem não
+                                        atinge o ideal sofre por isso”.</p>
+                                    <figure>
+                                        <img src="public/images/post_image.jpg" alt="">
+                                        <figcaption>Imagem aleatoria</figcaption>
+                                    </figure>
+
+                                    <p class="post_p">Essa frase é marcante, já que presenciamos isso todos os dias. A
+                                        autoanálise de forma brusca,
+                                        faz com que achemos “erros” em nós mesmos que nem existem. Muitas mulheres não
+                                        têm coragem de usar um biquíni
+                                        na praia, com pensamentos de que estão fora dos padrões. É constante encontrar
+                                        pessoas que fazem de tudo para
+                                        se sentirem felizes com seu próprio corpo, porém essa aceitação não é fácil.
+                                        Mesmo tentando a qualquer custo
+                                        emagrecer,
+                                        muitas não conseguem, e por esse motivo acabam martirizando-se e passando até
+                                        mesmo por transtornos traumáticos.</p>
+
+                                    <p class="post_p"> Pesquisadores estudam o transtorno dismórfico corporal.
+                                        Recentemente, descobriu-se que ele faz
+                                        com que indivíduos pensem excessivamente sobre um defeito
+                                        que não existe ou é muito pequeno. Talvez algumas pessoas que visam mudanças em
+                                        seu próprio corpo estejam passando por isso. </p>
+
+                                    <p class="post_p"> A autocrítica excessiva faz com que pessoas comuns, que não
+                                        possuem relação com a fama, não consigam relacionar a palavra bonita consigo
+                                        mesmas, assim sendo, acabam não se encaixando nesse padrão medíocre, onde
+                                        celulites, estrias e outras “imperfeições” são encaradas como coisas de outro
+                                        mundo. Enquanto não houver aceitação do corpo individual, onde as pessoas
+                                        deixem de olhar para o espelho com os olhos e passarem a enxergar com a alma, a
+                                        influência da mídia e sociedade impedirão o ser humano de ter um conceito mais
+                                        amplo sobre o assunto.
+
+                                    </p>
+                                    <!-- Bottom Panel -->
+                                    <div class="post_panel bottom_panel d-flex flex-row align-items-center justify-content-start">
+                                        <div class="post_meta"><a href="#">Priscila</a><span>Abr 09, 2019 at 19:48 am</span></div>
+                                        <div class="post_share ml-sm-auto">
+                                            <span>share</span>
+                                            <ul class="post_share_list">
+                                                <li class="post_share_item"><a href="#"><i class="fa fa-facebook"
+                                                            aria-hidden="true"></i></a></li>
+                                                <li class="post_share_item"><a href="#"><i class="fa fa-twitter"
+                                                            aria-hidden="true"></i></a></li>
+                                                <li class="post_share_item"><a href="#"><i class="fa fa-google"
+                                                            aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+
+
+                            <!-- Link geraldo -->
+                            <div class="card card_default card_small_no_image grid-item">
+                                <div class="card-body">
+                                    <div class="card-title card-title-small"><a href="artigos.html">A princípio, para toda a vida?</a></div>
+                                    <small class="post_meta"><a href="#">Geraldo Júnior</a><span>Abr 09, 2019
+                                            at 8:49 am</span></small>
+                                </div>
+                            </div>
+                          
+                            <!-- Link manu -->
+                            <div class="card card_default card_small_no_image grid-item">
+                                    <div class="card-body">
+                                        <div class="card-title card-title-small"><a href="artigos2.html">A princípio, para toda a vida?</a></div>
+                                        <small class="post_meta"><a href="#">Emanuelly Peres</a><span>Abr 09, 2019
+                                                at 8:49 am</span></small>
+                                    </div>
+                                </div>
                         </div>
-                        
                     </div>
 
                     <!-- Sidebar -->
@@ -402,125 +411,6 @@
                                 </div>
                             </div>
 
-                            <!-- Newest Videos -->
-
-                            <div class="sidebar_section newest_videos">
-                                <div class="sidebar_title_container">
-                                    <div class="sidebar_title">Videos</div>
-                                    <div class="sidebar_slider_nav">
-                                        <div class="custom_nav_container sidebar_slider_nav_container">
-                                            <div class="custom_prev custom_prev_vid">
-                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                    x="0px" y="0px" width="7px" height="12px" viewBox="0 0 7 12"
-                                                    enable-background="new 0 0 7 12" xml:space="preserve">
-                                                    <polyline fill="#bebebe" points="0,5.61 5.609,0 7,0 7,1.438 2.438,6 7,10.563 7,12 5.609,12 -0.002,6.39 " />
-                                                </svg>
-                                            </div>
-                                            <ul id="custom_dots" class="custom_dots custom_dots_vid">
-                                                <li class="custom_dot custom_dot_vid active"><span></span></li>
-                                                <li class="custom_dot custom_dot_vid"><span></span></li>
-                                                <li class="custom_dot custom_dot_vid"><span></span></li>
-                                            </ul>
-                                            <div class="custom_next custom_next_vid">
-                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                    x="0px" y="0px" width="7px" height="12px" viewBox="0 0 7 12"
-                                                    enable-background="new 0 0 7 12" xml:space="preserve">
-                                                    <polyline fill="#bebebe" points="6.998,6.39 1.389,12 -0.002,12 -0.002,10.562 4.561,6 -0.002,1.438 -0.002,0 1.389,0 7,5.61 " />
-                                                </svg>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="sidebar_section_content">
-
-                                    <!-- Sidebar Slider -->
-                                    <div class="sidebar_slider_container">
-                                        <div class="owl-carousel owl-theme sidebar_slider_vid">
-
-                                            <!-- Newest Videos Slider Item -->
-                                            <div class="owl-item">
-
-                                                <!-- Newest Videos Post -->
-                                                <div class="side_post">
-                                                    <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="side_post_image">
-                                                                <div><img src="public/images/salnoraboa.PNG" alt=""></div>
-                                                            </div>
-                                                            <div class="side_post_content">
-                                                                <div class="side_post_title"><a href="https://g1.globo.com/mundo/playlist/videos-veja-videos-sobre-noticias-internacionais.ghtml">No
-                                                                        Memorial do Holocausto, Bolsonaro diz que
-                                                                        nazismo era de esquerda</a></div>
-                                                                <small class="post_meta">G1<span>Abr 2</span></small>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-
-                                                <!-- Newest Videos Post -->
-                                                <div class="side_post">
-                                                    <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="side_post_image">
-                                                                <div><img src="public/images/ish.PNG" alt=""></div>
-                                                            </div>
-                                                            <div class="side_post_content">
-                                                                <div class="side_post_title"><a href="https://g1.globo.com/mundo/playlist/videos-veja-videos-sobre-noticias-internacionais.ghtml">Primeira-ministra
-                                                                        britânica vai pedir à União Europeia mais prazo
-                                                                        para o Brexit</a></div>
-                                                                <small class="post_meta">G1<span>Abr 2</span></small>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-
-                                            </div>
-
-                                            <!-- Newest Videos Slider Item -->
-                                            <div class="owl-item">
-
-                                                <!-- Newest Videos Post -->
-                                                <div class="side_post">
-                                                    <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="side_post_image">
-                                                                <div><img src="public/images/vid_1.jpg" alt=""></div>
-                                                            </div>
-                                                            <div class="side_post_content">
-                                                                <div class="side_post_title"> <a href="https://g1.globo.com/mundo/playlist/videos-veja-videos-sobre-noticias-internacionais.ghtml">
-                                                                        Venezuelanos ultrapassam barreiras e atravessam
-                                                                        fronteira com a Colômbia</a></div>
-                                                                <small class="post_meta">G1<span>Abr 2</span></small>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-
-                                                <!-- Newest Videos Post -->
-                                                <div class="side_post">
-                                                    <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="side_post_image">
-                                                                <div><img src="public/images/geleira.PNG" alt=""></div>
-                                                            </div>
-                                                            <div class="side_post_content">
-                                                                <div class="side_post_title"> <a href="https://g1.globo.com/mundo/playlist/videos-veja-videos-sobre-noticias-internacionais.ghtml">
-                                                                        Turistas na Islândia levam susto após parte de
-                                                                        uma geleira se desprender e cair no mar</a></div>
-                                                                <small class="post_meta">G1<span>Abr 2</span></small>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-
-                                            </div>
-
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
                             <!-- Future Events -->
 
                             <div class="sidebar_section future_events">
@@ -559,21 +449,21 @@
                                             <!-- Future Events Slider Item -->
                                             <div class="owl-item">
 
-                                                 <!-- Future Events Post -->
-                                                 <div class="side_post">
-                                                        <a href="post.html">
-                                                            <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                                <div class="event_date d-flex flex-column align-items-center justify-content-center">
-                                                                    <div class="event_day">13</div>
-                                                                    <div class="event_month">abr</div>
-                                                                </div>
-                                                                <div class="side_post_content">
-                                                                    <div class="side_post_title">Sábado Letivo</div>
-                                                                    <small class="post_meta">IFMS<span>Abr 2</span></small>
-                                                                </div>
+                                                <!-- Future Events Post -->
+                                                <div class="side_post">
+                                                    <a href="post.html">
+                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                            <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                                <div class="event_day">13</div>
+                                                                <div class="event_month">abr</div>
                                                             </div>
-                                                        </a>
-                                                    </div>
+                                                            <div class="side_post_content">
+                                                                <div class="side_post_title">Sábado Letivo</div>
+                                                                <small class="post_meta">IFMS<span>Abr 2</span></small>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
 
                                                 <!-- Future Events Post -->
                                                 <div class="side_post">
@@ -591,7 +481,7 @@
                                                     </a>
                                                 </div>
 
-                                                
+
 
                                                 <!-- Future Events Post -->
                                                 <div class="side_post">
@@ -657,7 +547,8 @@
                                                                 <div class="event_month">apr</div>
                                                             </div>
                                                             <div class="side_post_content">
-                                                                <div class="side_post_title">Aniversário de Nova Andradina</div>
+                                                                <div class="side_post_title">Aniversário de Nova
+                                                                    Andradina</div>
                                                                 <small class="post_meta">IFMS<span>Abr 2</span></small>
                                                             </div>
                                                         </div>
@@ -759,7 +650,7 @@
                                                             </div>
                                                             <div class="side_post_content">
                                                                 <div class="side_post_title">Corpus Christi</div>
-                                                                    <small class="post_meta">IFMS<span>Abr 2</span></small>
+                                                                <small class="post_meta">IFMS<span>Abr 2</span></small>
                                                             </div>
                                                         </div>
                                                     </a>
@@ -803,8 +694,9 @@
                             <div class="copyright">
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                 Copyright &copy;
-                                <script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Informática 7 <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                                    target="_blank">IFMS</a>
+                                <script>document.write(new Date().getFullYear());</script> Todos os direitos reservados
+                                | Informática 7 <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                                    target="_blank">Info7</a>
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             </div>
                         </div>
@@ -815,7 +707,7 @@
                             <div class="subscribe_content">
                                 <div class="subscribe_title">Increva-se</div>
                                 <form action="#">
-                                    <input type="email" class="sub_input" placeholder="Seu Email" required="required">
+                                    <input type="email" class="sub_input" placeholder="Your Email" required="required">
                                     <button class="sub_button">
                                         <svg version="1.1" id="link_arrow_1" xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="19px"
@@ -840,7 +732,7 @@
     <script src="public/plugins/easing/easing.js"></script>
     <script src="public/plugins/masonry/masonry.js"></script>
     <script src="public/plugins/parallax-js-master/parallax.min.js"></script>
-    <script src="public/js/category.js"></script>
+    <script src="public/js/post.js"></script>
 </body>
 
 </html>
