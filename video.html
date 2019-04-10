@@ -1,0 +1,613 @@
+<!--PAGINA SECUNDARIA-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Jornal IFMS</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Demo project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="public/styles/bootstrap4/bootstrap.min.css">
+    <link href="public/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="public/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="public/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="public/plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="public/plugins/jquery.mb.YTPlayer-3.1.12/jquery.mb.YTPlayer.css">
+    <link rel="stylesheet" type="text/css" href="public/styles/category.css">
+    <link rel="stylesheet" type="text/css" href="public/styles/category_responsive.css">
+    <link rel="short icon" href="public/images/news.png">
+</head>
+
+<body>
+
+    <div class="super_container">
+
+        <!-- Header -->
+
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="header_content d-flex flex-row align-items-center justify-content-start">
+                            <div class="logo"><a href="#">Jornal IFMS</a></div>
+                            <nav class="main_nav">
+                                <ul>
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li><a href="artigos.html">Artigos</a></li>
+                                    <li><a href="video.html">Videos</a></li>
+                                    <li><a href="notices.html">Noticias</a></li>
+                                    <li><a href="anuncios.html">Anuncios</a></li>
+                                    <li><a href="cronica.html">Crônica</a></li>
+                                    <li><a href="reportagem.html">Reportagem</a></li>
+                                </ul>
+                            </nav>
+                            <div class="search_container ml-auto">
+                                <div class="weather">
+                                    <div class="temperature">+30°</div>
+                                    <img class="weather_icon" src="public/images/cloud.png" alt="">
+                                </div>
+                                <form action="#">
+                                    <input type="search" class="header_search_input" required="required"
+                                        placeholder="Type to Search...">
+                                    <img class="header_search_icon" src="public/images/search.png" alt="">
+                                </form>
+
+                            </div>
+                            <div class="hamburger ml-auto menu_mm">
+                                <i class="fa fa-bars trans_200 menu_mm" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+        <!-- Home -->
+
+        <div class="home">
+            <div class="home_background parallax-window" data-parallax="scroll"
+                data-image-src="public/images/category.jpg" data-speed="0.8"></div>
+        </div>
+
+        <!-- Page Content -->
+
+        <div class="page_content">
+            <div class="container">
+                <div class="row row-lg-eq-height">
+
+                    <!-- Main Content -->
+
+                    <div class="col-lg-9">
+                        <div class="main_content">
+
+                            <!-- Category -->
+
+                            <div class="category">
+                                <div class="section_panel d-flex flex-row align-items-center justify-content-start">
+                                    <div class="section_title">Reportagem</div>
+                                    <div class="section_tags ml-auto">
+
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Blog Section - Videos -->
+
+                                <div class="blog_section">
+                                    <div class="section_panel d-flex flex-row align-items-center justify-content-start">
+                                        <div class="section_title">Most Popular Videos</div>
+                                    </div>
+                                    <div class="section_content">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="videos">
+                                                    <div class="player_container">
+                                                        <div id="P1" class="player"
+                                                            data-property="{videoURL:'2ScS5kwm7nI',containment:'self',startAt:0,mute:false,autoPlay:false,loop:false,opacity:1}">
+                                                        </div>
+                                                    </div>
+                                                    <div class="playlist">
+                                                        <div class="playlist_background"></div>
+
+                                                        <!-- Video -->
+                                                        <div class="video_container video_command active"
+                                                            onclick="jQuery('#P1').YTPChangeVideo({videoURL: 'VwrRVlQJr8s', mute:false, addRaster:true})">
+                                                            <div
+                                                                class="video d-flex flex-row align-items-center justify-content-start">
+                                                                <div class="video_image">
+                                                                    <div><img src="public/images/video_1.jpg" alt="">
+                                                                    </div>
+                                                                    <img class="play_img" src="images/play.png" alt="">
+                                                                </div>
+                                                                <div class="video_content">
+                                                                    <div class="video_title">How Did van Gogh’s
+                                                                        Turbulent
+                                                                        Mind</div>
+                                                                    <div class="video_info"><span>1.2M
+                                                                            views</span><span>Sep
+                                                                            29</span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Video -->
+                                                        <div class="video_container video_command"
+                                                            onclick="jQuery('#P1').YTPChangeVideo({videoURL: 'BzMLA8YIgG0', mute:false, addRaster:true})">
+                                                            <div
+                                                                class="video d-flex flex-row align-items-center justify-content-start">
+                                                                <div class="video_image">
+                                                                    <div><img src="public/images/video_2.jpg" alt="">
+                                                                    </div>
+                                                                    <img class="play_img" src="images/play.png" alt="">
+                                                                </div>
+                                                                <div class="video_content">
+                                                                    <div class="video_title">How Did van Gogh’s
+                                                                        Turbulent
+                                                                        Mind</div>
+                                                                    <div class="video_info"><span>1.2M
+                                                                            views</span><span>Sep
+                                                                            29</span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Video -->
+                                                        <div class="video_container video_command"
+                                                            onclick="jQuery('#P1').YTPChangeVideo({videoURL: 'bpbcSdqvtUQ', mute:false, addRaster:true})">
+                                                            <div
+                                                                class="video d-flex flex-row align-items-center justify-content-start">
+                                                                <div class="video_image">
+                                                                    <div><img src="public/images/video_3.jpg" alt="">
+                                                                    </div>
+                                                                    <img class="play_img" src="images/play.png" alt="">
+                                                                </div>
+                                                                <div class="video_content">
+                                                                    <div class="video_title">How Did van Gogh’s
+                                                                        Turbulent
+                                                                        Mind</div>
+                                                                    <div class="video_info"><span>1.2M
+                                                                            views</span><span>Sep
+                                                                            29</span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Video -->
+                                                        <div class="video_container video_command"
+                                                            onclick="jQuery('#P1').YTPChangeVideo({videoURL: 'UjYemgbhJF0', mute:false, addRaster:true})">
+                                                            <div
+                                                                class="video d-flex flex-row align-items-center justify-content-start">
+                                                                <div class="video_image">
+                                                                    <div><img src="public/images/video_4.jpg" alt="">
+                                                                    </div>
+                                                                    <img class="play_img" src="images/play.png" alt="">
+                                                                </div>
+                                                                <div class="video_content">
+                                                                    <div class="video_title">How Did van Gogh’s
+                                                                        Turbulent
+                                                                        Mind</div>
+                                                                    <div class="video_info"><span>1.2M
+                                                                            views</span><span>Sep
+                                                                            29</span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Sidebar -->
+
+                                    <div class="col-lg-3">
+                                        <div class="sidebar">
+                                            <div class="sidebar_background"></div>
+
+                                            <!-- Future Events -->
+
+                                            <div class="sidebar_section future_events">
+                                                <div class="sidebar_title_container">
+                                                    <div class="sidebar_title">Eventos futuros</div>
+                                                    <div class="sidebar_slider_nav">
+                                                        <div class="custom_nav_container sidebar_slider_nav_container">
+                                                            <div class="custom_prev custom_prev_events">
+                                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                                                    y="0px" width="7px" height="12px" viewBox="0 0 7 12"
+                                                                    enable-background="new 0 0 7 12"
+                                                                    xml:space="preserve">
+                                                                    <polyline fill="#bebebe"
+                                                                        points="0,5.61 5.609,0 7,0 7,1.438 2.438,6 7,10.563 7,12 5.609,12 -0.002,6.39 " />
+                                                                </svg>
+                                                            </div>
+                                                            <ul id="custom_dots" class="custom_dots custom_dots_events">
+                                                                <li class="custom_dot custom_dot_events active">
+                                                                    <span></span></li>
+                                                                <li class="custom_dot custom_dot_events"><span></span>
+                                                                </li>
+                                                                <li class="custom_dot custom_dot_events"><span></span>
+                                                                </li>
+                                                            </ul>
+                                                            <div class="custom_next custom_next_events">
+                                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                                                    y="0px" width="7px" height="12px" viewBox="0 0 7 12"
+                                                                    enable-background="new 0 0 7 12"
+                                                                    xml:space="preserve">
+                                                                    <polyline fill="#bebebe"
+                                                                        points="6.998,6.39 1.389,12 -0.002,12 -0.002,10.562 4.561,6 -0.002,1.438 -0.002,0 1.389,0 7,5.61 " />
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sidebar_section_content">
+
+                                                    <!-- Sidebar Slider -->
+                                                    <div class="sidebar_slider_container">
+                                                        <div class="owl-carousel owl-theme sidebar_slider_events">
+
+                                                            <!-- Future Events Slider Item -->
+                                                            <div class="owl-item">
+
+                                                                <!-- Future Events Post -->
+                                                                <div class="side_post">
+                                                                    <a href="post.html">
+                                                                        <div
+                                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                                            <div
+                                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                                                <div class="event_day">13</div>
+                                                                                <div class="event_month">abr</div>
+                                                                            </div>
+                                                                            <div class="side_post_content">
+                                                                                <div class="side_post_title">Sábado
+                                                                                    Letivo
+                                                                                </div>
+                                                                                <small class="post_meta">IFMS<span>Abr
+                                                                                        2</span></small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+
+                                                                <!-- Future Events Post -->
+                                                                <div class="side_post">
+                                                                    <a href="post.html">
+                                                                        <div
+                                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                                            <div
+                                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                                                <div class="event_day">15</div>
+                                                                                <div class="event_month">abr</div>
+                                                                            </div>
+                                                                            <div class="side_post_content">
+                                                                                <div class="side_post_title">Jogos IFMS
+                                                                                    -
+                                                                                    JIFENA</div>
+                                                                                <small class="post_meta">IFMS<span>Abr
+                                                                                        2</span></small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+
+
+
+                                                                <!-- Future Events Post -->
+                                                                <div class="side_post">
+                                                                    <a href="post.html">
+                                                                        <div
+                                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                                            <div
+                                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                                                <div class="event_day">19</div>
+                                                                                <div class="event_month">abr</div>
+                                                                            </div>
+                                                                            <div class="side_post_content">
+                                                                                <div class="side_post_title">Feriado
+                                                                                </div>
+                                                                                <small class="post_meta">IFMS<span>Abr
+                                                                                        2</span></small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+
+                                                                <!-- Future Events Post -->
+                                                                <div class="side_post">
+                                                                    <a href="post.html">
+                                                                        <div
+                                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                                            <div
+                                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                                                <div class="event_day">24</div>
+                                                                                <div class="event_month">abr</div>
+                                                                            </div>
+                                                                            <div class="side_post_content">
+                                                                                <div class="side_post_title">Entrega de
+                                                                                    notas do 1º Bim
+                                                                                </div>
+                                                                                <small class="post_meta">IFMS<span>Abr
+                                                                                        2</span></small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+
+                                                            </div>
+
+
+
+                                                            <!-- Future Events Slider Item -->
+                                                            <div class="owl-item">
+
+                                                                <!-- Future Events Post -->
+                                                                <div class="side_post">
+                                                                    <a href="post.html">
+                                                                        <div
+                                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                                            <div
+                                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                                                <div class="event_day">29</div>
+                                                                                <div class="event_month">apr</div>
+                                                                            </div>
+                                                                            <div class="side_post_content">
+                                                                                <div class="side_post_title">Recesso
+                                                                                </div>
+                                                                                <small class="post_meta">IFMS<span>Abr
+                                                                                        2</span></small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+
+                                                                <!-- Future Events Post -->
+                                                                <div class="side_post">
+                                                                    <a href="post.html">
+                                                                        <div
+                                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                                            <div
+                                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                                                <div class="event_day">30</div>
+                                                                                <div class="event_month">apr</div>
+                                                                            </div>
+                                                                            <div class="side_post_content">
+                                                                                <div class="side_post_title">Aniversário
+                                                                                    de
+                                                                                    Nova
+                                                                                    Andradina</div>
+                                                                                <small class="post_meta">IFMS<span>Abr
+                                                                                        2</span></small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+
+                                                                <!-- Future Events Post -->
+                                                                <div class="side_post">
+                                                                    <a href="post.html">
+                                                                        <div
+                                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                                            <div
+                                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                                                <div class="event_day">01</div>
+                                                                                <div class="event_month">may</div>
+                                                                            </div>
+                                                                            <div class="side_post_content">
+                                                                                <div class="side_post_title">Dia Mundial
+                                                                                    do
+                                                                                    Trabalho
+                                                                                </div>
+                                                                                <small class="post_meta">IFMS<span>Abr
+                                                                                        2</span></small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+
+                                                                <!-- Future Events Post -->
+                                                                <div class="side_post">
+                                                                    <a href="post.html">
+                                                                        <div
+                                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                                            <div
+                                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                                                <div class="event_day">02</div>
+                                                                                <div class="event_month">may</div>
+                                                                            </div>
+                                                                            <div class="side_post_content">
+                                                                                <div class="side_post_title">Recesso
+                                                                                </div>
+                                                                                <small class="post_meta">IFMS<span>Abr
+                                                                                        2</span></small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <!-- Future Events Slider Item -->
+                                                            <div class="owl-item">
+
+                                                                <!-- Future Events Post -->
+                                                                <div class="side_post">
+                                                                    <a href="post.html">
+                                                                        <div
+                                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                                            <div
+                                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                                                <div class="event_day">03</div>
+                                                                                <div class="event_month">may</div>
+                                                                            </div>
+                                                                            <div class="side_post_content">
+                                                                                <div class="side_post_title">Recesso
+                                                                                </div>
+                                                                                <small class="post_meta">IFMS<span>Abr
+                                                                                        2</span></small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+
+                                                                <!-- Future Events Post -->
+                                                                <div class="side_post">
+                                                                    <a href="post.html">
+                                                                        <div
+                                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                                            <div
+                                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                                                <div class="event_day">18</div>
+                                                                                <div class="event_month">may</div>
+                                                                            </div>
+                                                                            <div class="side_post_content">
+                                                                                <div class="side_post_title">Sábado
+                                                                                    Letivo
+                                                                                </div>
+                                                                                <small class="post_meta">IFMS<span>Abr
+                                                                                        2</span></small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+
+                                                                <!-- Future Events Post -->
+                                                                <div class="side_post">
+                                                                    <a href="post.html">
+                                                                        <div
+                                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                                            <div
+                                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                                                <div class="event_day">01</div>
+                                                                                <div class="event_month">jun</div>
+                                                                            </div>
+                                                                            <div class="side_post_content">
+                                                                                <div class="side_post_title">Sábado
+                                                                                    Letivo
+                                                                                </div>
+                                                                                <small class="post_meta">IFMS<span>Abr
+                                                                                        2</span></small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+
+                                                                <!-- Future Events Post -->
+                                                                <div class="side_post">
+                                                                    <a href="post.html">
+                                                                        <div
+                                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                                            <div
+                                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                                                <div class="event_day">20</div>
+                                                                                <div class="event_month">jun</div>
+                                                                            </div>
+                                                                            <div class="side_post_content">
+                                                                                <div class="side_post_title">Corpus
+                                                                                    Christi
+                                                                                </div>
+                                                                                <small class="post_meta">IFMS<span>Abr
+                                                                                        2</span></small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Footer -->
+
+                        <footer class="footer">
+                            <div class="container">
+                                <div class="row row-lg-eq-height">
+                                    <div class="col-lg-9 order-lg-1 order-2">
+                                        <div class="footer_content">
+                                            <div class="footer_logo"><a href="#">Jornal IFMS</a></div>
+                                            <div class="footer_social">
+                                                <ul>
+                                                    <li class="footer_social_facebook"><a href="#"><i
+                                                                class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                    <li class="footer_social_twitter"><a href="#"><i
+                                                                class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                    <li class="footer_social_pinterest"><a href="#"><i
+                                                                class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                                    <li class="footer_social_vimeo"><a href="#"><i class="fa fa-vimeo"
+                                                                aria-hidden="true"></i></a></li>
+                                                    <li class="footer_social_instagram"><a href="#"><i
+                                                                class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                    <li class="footer_social_google"><a href="#"><i class="fa fa-google"
+                                                                aria-hidden="true"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="copyright">
+                                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                                Copyright &copy;
+                                                <script>document.write(new Date().getFullYear());</script> Todos os
+                                                direitos
+                                                reservados
+                                                | Informática 7 <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                                                    href="https://colorlib.com" target="_blank">Info7</a>
+                                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 order-lg-2 order-1">
+                                        <div class="subscribe">
+                                            <div class="subscribe_background"></div>
+                                            <div class="subscribe_content">
+                                                <div class="subscribe_title">Increva-se</div>
+                                                <form action="#">
+                                                    <input type="email" class="sub_input" placeholder="Your Email"
+                                                        required="required">
+                                                    <button class="sub_button">
+                                                        <svg version="1.1" id="link_arrow_1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                            width="19px" height="13px" viewBox="0 0 19 13"
+                                                            enable-background="new 0 0 19 13" xml:space="preserve">
+                                                            <polygon fill="#FFFFFF"
+                                                                points="12.475,0 11.061,0 17.081,6.021 0,6.021 0,7.021 17.038,7.021 11.06,13 12.474,13 18.974,6.5 " />
+                                                        </svg>
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+
+                    <script src="public/js/jquery-3.2.1.min.js"></script>
+                    <script src="public/styles/bootstrap4/popper.js"></script>
+                    <script src="public/styles/bootstrap4/bootstrap.min.js"></script>
+                    <script src="public/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+                    <script src="public/plugins/easing/easing.js"></script>
+                    <script src="public/plugins/masonry/masonry.js"></script>
+                    <script src="public/plugins/parallax-js-master/parallax.min.js"></script>
+                    <script src="public/js/post.js"></script>
+</body>
+
+</html>
