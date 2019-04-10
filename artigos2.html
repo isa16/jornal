@@ -15,8 +15,8 @@
     <link rel="stylesheet" type="text/css" href="public/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="public/plugins/OwlCarousel2-2.2.1/animate.css">
     <link rel="stylesheet" type="text/css" href="public/plugins/jquery.mb.YTPlayer-3.1.12/jquery.mb.YTPlayer.css">
-    <link rel="stylesheet" type="text/css" href="public/styles/post.css">
-    <link rel="stylesheet" type="text/css" href="public/styles/post_responsive.css">
+    <link rel="stylesheet" type="text/css" href="public/styles/category.css">
+    <link rel="stylesheet" type="text/css" href="public/styles/category_responsive.css">
     <link rel="short icon" href="public/images/news.png">
 </head>
 
@@ -31,24 +31,25 @@
                 <div class="row">
                     <div class="col">
                         <div class="header_content d-flex flex-row align-items-center justify-content-start">
-                            <div class="logo"><a href="index.html">Jornal IFMS</a></div>
+                            <div class="logo"><a href="#">Jornal IFMS</a></div>
                             <nav class="main_nav">
                                 <ul>
                                     <li class="active"><a href="index.html">Home</a></li>
                                     <li><a href="artigos.html">Artigos</a></li>
-                                    <li><a href="#">Vídeos</a></li>
-                                    <li><a href="notices.html">Notícias</a></li>
-                                    <li><a href="anuncios.html">Anúncios</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="#">Videos</a></li>
+                                    <li><a href="notices.html">Noticias</a></li>
+                                    <li><a href="anuncios.html">Anuncios</a></li>
+                                    <li><a href="contact.html">Crônica</a></li>
                                 </ul>
                             </nav>
                             <div class="search_container ml-auto">
                                 <div class="weather">
-                                    <div class="temperature">+35°</div>
+                                    <div class="temperature">+30°</div>
                                     <img class="weather_icon" src="public/images/cloud.png" alt="">
                                 </div>
                                 <form action="#">
-                                    <input type="search" class="header_search_input" required="required" placeholder="Type to Search...">
+                                    <input type="search" class="header_search_input" required="required"
+                                        placeholder="Type to Search...">
                                     <img class="header_search_icon" src="public/images/search.png" alt="">
                                 </form>
 
@@ -62,41 +63,13 @@
             </div>
         </header>
 
-        <!-- Menu -->
 
-        <div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
-            <div class="menu_close_container">
-                <div class="menu_close">
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-            <div class="logo menu_mm"><a href="#">Jornal IFMS</a></div>
-            <div class="search">
-                <form action="#">
-                    <input type="search" class="header_search_input menu_mm" required="required" placeholder="Type to Search...">
-                    <img class="header_search_icon menu_mm" src="public/images/search_2.png" alt="">
-                </form>
-            </div>
-            <nav class="menu_nav">
-                <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="artigos.html">Artigos</a></li>
-                    <li><a href="#">Vídeos</a></li>
-                    <li><a href="notices.html">Notícias</a></li>
-                    <li><a href="anuncios.html">Anúncios</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
 
         <!-- Home -->
 
         <div class="home">
-            <div class="home_slider_background" style="background-image:url(public/images/home_slider.jpg)"></div>
-            <div class="home_content">
-                <div class="post_title">Bem vindo ao artigo da Priscila </div>
-            </div>
+            <div class="home_background parallax-window" data-parallax="scroll"
+                data-image-src="public/images/category.jpg" data-speed="0.8"></div>
         </div>
 
         <!-- Page Content -->
@@ -105,145 +78,182 @@
             <div class="container">
                 <div class="row row-lg-eq-height">
 
-                    <!-- Post Content -->
+                    <!-- Main Content -->
 
                     <div class="col-lg-9">
-                        <div class="post_content">
+                        <div class="main_content">
 
-                            <!-- Top Panel -->
-                            <div class="post_panel post_panel_top d-flex flex-row align-items-center justify-content-start">
-                                <div class="post_share ml-sm-auto">
-                                    <span>share</span>
-                                    <ul class="post_share_list">
-                                        <li class="post_share_item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li class="post_share_item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li class="post_share_item"><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <!-- Category -->
 
-                            <!-- Post Body -->
+                            <div class="category">
+                                <div class="section_panel d-flex flex-row align-items-center justify-content-start">
+                                    <div class="section_title">Artigos</div>
+                                    <div class="section_tags ml-auto">
 
-                            <div class="post_body">
-                                <p class="post_p">
-                                    <h2>Dificuldades na aceitação da beleza individuals</h2>
-
-                                    <p class="post_p"> Vivemos em uma sociedade onde somos automaticamente excluídos
-                                        dependendo do tipo físico que
-                                        possuímos, da roupa que usamos ou do jeito que nos comportamos perante às
-                                        pessoas. Essa exclusão social está
-                                        ligada ao ambiente da mídia, no qual há a realização de uma mutação nos
-                                        pensamentos das pessoas mostrando o
-                                        corpo perfeito para a sociedade, que seria representado por homens e mulheres
-                                        mais magros. Desta forma, muitos
-                                        indivíduos, destacando as mulheres, vão cada vez mais a fundo em busca de
-                                        padrões estéticos que precisam ser
-                                        atingidos para aceitação coletiva, já que não se sentem bem consigo mesmos. </p>
-
-                                    <p class="post_p"> As pessoas são manipuladas e acabam consumindo exageradamente
-                                        produtos de beleza, roupas da moda,
-                                        e até mesmo as plásticas e cirurgias não são dispensadas. Gradativamente,
-                                        distúrbios alimentares, como bulimia e
-                                        anorexia estão mais presentes em nosso meio, por pessoas que já desacreditaram
-                                        do seu corpo, sentindo incômodo e
-                                        vergonha, e com isso acabam prejudicando a saúde. Ilusão é acreditar que o topo
-                                        da felicidade é essa tal beleza
-                                        inalcançável e artificial que a mídia quer impor, e que acaba se tornando um
-                                        fator angustiante para o ser humano moderno. </p>
-
-
-                                    <p class="post_p"> A preocupação para se encaixar nos padrões de beleza é tão grave
-                                        que uma pesquisa realizada,
-                                        ao redor do mundo, pela marca de cosméticos Dove mostrou que apenas 4% das
-                                        6.400 mulheres entrevistadas se
-                                        sentem seguras para se definirem como belas. Entre as brasileiras, a
-                                        porcentagem é 14%. Além disso, 59% afirmam
-                                        sentir pressão para serem bonitas.
-                                        Para 32%, a maior cobrança vem delas mesmas, acima de sociedade (12%), amigos e
-                                        família (9%) e mídia (6%). </p>
-
-                                    <p class="post_p"> O que é o ser bonito ou ser feio e qual é a finalidade da
-                                        sociedade ao impor esses
-                                        padrões? Somos seres humanos com pensamentos diferentes, a partir dos quais
-                                        cada um vê o mundo de
-                                        uma forma. Assim, não tem o mínimo sentido a existência do feio e do bonito
-                                        como um padrão. O bonito
-                                        para uma pessoa pode não ser a mesma coisa na visão de outra. </p>
-
-                                    <p class="post_o">A antropóloga Mirela Berger percebeu essa “obrigação da beleza”
-                                        quando realizou uma pesquisa para
-                                        seu doutorado na Universidade de São Paulo. Houve mais de 60 entrevistadas e
-                                        nenhuma estava satisfeita com seu próprio corpo.
-                                        De acordo com ela: “A identidade está muito calcada na aparência e quem não
-                                        atinge o ideal sofre por isso”.</p>
-                                    <figure>
-                                        <img src="public/images/post_image.jpg" alt="">
-                                        <figcaption>Imagem aleatoria</figcaption>
-                                    </figure>
-
-                                    <p class="post_p">Essa frase é marcante, já que presenciamos isso todos os dias. A
-                                        autoanálise de forma brusca,
-                                        faz com que achemos “erros” em nós mesmos que nem existem. Muitas mulheres não
-                                        têm coragem de usar um biquíni
-                                        na praia, com pensamentos de que estão fora dos padrões. É constante encontrar
-                                        pessoas que fazem de tudo para
-                                        se sentirem felizes com seu próprio corpo, porém essa aceitação não é fácil.
-                                        Mesmo tentando a qualquer custo
-                                        emagrecer,
-                                        muitas não conseguem, e por esse motivo acabam martirizando-se e passando até
-                                        mesmo por transtornos traumáticos.</p>
-
-                                    <p class="post_p"> Pesquisadores estudam o transtorno dismórfico corporal.
-                                        Recentemente, descobriu-se que ele faz
-                                        com que indivíduos pensem excessivamente sobre um defeito
-                                        que não existe ou é muito pequeno. Talvez algumas pessoas que visam mudanças em
-                                        seu próprio corpo estejam passando por isso. </p>
-
-                                    <p class="post_p"> A autocrítica excessiva faz com que pessoas comuns, que não
-                                        possuem relação com a fama, não consigam relacionar a palavra bonita consigo
-                                        mesmas, assim sendo, acabam não se encaixando nesse padrão medíocre, onde
-                                        celulites, estrias e outras “imperfeições” são encaradas como coisas de outro
-                                        mundo. Enquanto não houver aceitação do corpo individual, onde as pessoas
-                                        deixem de olhar para o espelho com os olhos e passarem a enxergar com a alma, a
-                                        influência da mídia e sociedade impedirão o ser humano de ter um conceito mais
-                                        amplo sobre o assunto.
-
-                                    </p>
-                                    <!-- Bottom Panel -->
-                                    <div class="post_panel bottom_panel d-flex flex-row align-items-center justify-content-start">
-                                        <div class="post_meta"><a href="#">Priscila</a><span>Abr 09, 2019 at 19:48 am</span></div>
-                                        <div class="post_share ml-sm-auto">
-                                            <span>share</span>
-                                            <ul class="post_share_list">
-                                                <li class="post_share_item"><a href="#"><i class="fa fa-facebook"
-                                                            aria-hidden="true"></i></a></li>
-                                                <li class="post_share_item"><a href="#"><i class="fa fa-twitter"
-                                                            aria-hidden="true"></i></a></li>
-                                                <li class="post_share_item"><a href="#"><i class="fa fa-google"
-                                                            aria-hidden="true"></i></a></li>
-                                            </ul>
-                                        </div>
                                     </div>
-                            </div>
 
-
-                            <!-- Link geraldo -->
-                            <div class="card card_default card_small_no_image grid-item">
-                                <div class="card-body">
-                                    <div class="card-title card-title-small"><a href="artigos.html">A princípio, para toda a vida?</a></div>
-                                    <small class="post_meta"><a href="#">Geraldo Júnior</a><span>Abr 09, 2019
-                                            at 8:49 am</span></small>
                                 </div>
-                            </div>
-                          
-                            <!-- Link manu -->
-                            <div class="card card_default card_small_no_image grid-item">
+
+                                <!-- Post Body -->
+
+                                <div class="post_body">
+                                    <p class="post_p">
+                                        <h2>Dificuldades na aceitação da beleza individuals</h2>
+
+                                        <p class="post_p"> Vivemos em uma sociedade onde somos
+                                            automaticamente excluídos
+                                            dependendo do tipo físico que
+                                            possuímos, da roupa que usamos ou do jeito que nos
+                                            comportamos perante às
+                                            pessoas. Essa exclusão social está
+                                            ligada ao ambiente da mídia, no qual há a realização de
+                                            uma mutação nos
+                                            pensamentos das pessoas mostrando o
+                                            corpo perfeito para a sociedade, que seria representado
+                                            por homens e mulheres
+                                            mais magros. Desta forma, muitos
+                                            indivíduos, destacando as mulheres, vão cada vez mais a
+                                            fundo em busca de
+                                            padrões estéticos que precisam ser
+                                            atingidos para aceitação coletiva, já que não se sentem
+                                            bem consigo mesmos. </p>
+
+                                        <p class="post_p"> As pessoas são manipuladas e acabam
+                                            consumindo exageradamente
+                                            produtos de beleza, roupas da moda,
+                                            e até mesmo as plásticas e cirurgias não são
+                                            dispensadas. Gradativamente,
+                                            distúrbios alimentares, como bulimia e
+                                            anorexia estão mais presentes em nosso meio, por pessoas
+                                            que já desacreditaram
+                                            do seu corpo, sentindo incômodo e
+                                            vergonha, e com isso acabam prejudicando a saúde. Ilusão
+                                            é acreditar que o topo
+                                            da felicidade é essa tal beleza
+                                            inalcançável e artificial que a mídia quer impor, e que
+                                            acaba se tornando um
+                                            fator angustiante para o ser humano moderno. </p>
+
+
+                                        <p class="post_p"> A preocupação para se encaixar nos
+                                            padrões de beleza é tão grave
+                                            que uma pesquisa realizada,
+                                            ao redor do mundo, pela marca de cosméticos Dove mostrou
+                                            que apenas 4% das
+                                            6.400 mulheres entrevistadas se
+                                            sentem seguras para se definirem como belas. Entre as
+                                            brasileiras, a
+                                            porcentagem é 14%. Além disso, 59% afirmam
+                                            sentir pressão para serem bonitas.
+                                            Para 32%, a maior cobrança vem delas mesmas, acima de
+                                            sociedade (12%), amigos e
+                                            família (9%) e mídia (6%). </p>
+
+                                        <p class="post_p"> O que é o ser bonito ou ser feio e qual é
+                                            a finalidade da
+                                            sociedade ao impor esses
+                                            padrões? Somos seres humanos com pensamentos diferentes,
+                                            a partir dos quais
+                                            cada um vê o mundo de
+                                            uma forma. Assim, não tem o mínimo sentido a existência
+                                            do feio e do bonito
+                                            como um padrão. O bonito
+                                            para uma pessoa pode não ser a mesma coisa na visão de
+                                            outra. </p>
+
+                                        <p class="post_o">A antropóloga Mirela Berger percebeu essa
+                                            “obrigação da beleza”
+                                            quando realizou uma pesquisa para
+                                            seu doutorado na Universidade de São Paulo. Houve mais
+                                            de 60 entrevistadas e
+                                            nenhuma estava satisfeita com seu próprio corpo.
+                                            De acordo com ela: “A identidade está muito calcada na
+                                            aparência e quem não
+                                            atinge o ideal sofre por isso”.</p>
+                                        <figure>
+                                            <img src="public/images/post_image.jpg" alt="">
+                                            <figcaption>Imagem aleatoria</figcaption>
+                                        </figure>
+
+                                        <p class="post_p">Essa frase é marcante, já que presenciamos
+                                            isso todos os dias. A
+                                            autoanálise de forma brusca,
+                                            faz com que achemos “erros” em nós mesmos que nem
+                                            existem. Muitas mulheres não
+                                            têm coragem de usar um biquíni
+                                            na praia, com pensamentos de que estão fora dos padrões.
+                                            É constante encontrar
+                                            pessoas que fazem de tudo para
+                                            se sentirem felizes com seu próprio corpo, porém essa
+                                            aceitação não é fácil.
+                                            Mesmo tentando a qualquer custo
+                                            emagrecer,
+                                            muitas não conseguem, e por esse motivo acabam
+                                            martirizando-se e passando até
+                                            mesmo por transtornos traumáticos.</p>
+
+                                        <p class="post_p"> Pesquisadores estudam o transtorno
+                                            dismórfico corporal.
+                                            Recentemente, descobriu-se que ele faz
+                                            com que indivíduos pensem excessivamente sobre um
+                                            defeito
+                                            que não existe ou é muito pequeno. Talvez algumas
+                                            pessoas que visam mudanças em
+                                            seu próprio corpo estejam passando por isso. </p>
+
+                                        <p class="post_p"> A autocrítica excessiva faz com que
+                                            pessoas comuns, que não
+                                            possuem relação com a fama, não consigam relacionar a
+                                            palavra bonita consigo
+                                            mesmas, assim sendo, acabam não se encaixando nesse
+                                            padrão medíocre, onde
+                                            celulites, estrias e outras “imperfeições” são encaradas
+                                            como coisas de outro
+                                            mundo. Enquanto não houver aceitação do corpo
+                                            individual, onde as pessoas
+                                            deixem de olhar para o espelho com os olhos e passarem a
+                                            enxergar com a alma, a
+                                            influência da mídia e sociedade impedirão o ser humano
+                                            de ter um conceito mais
+                                            amplo sobre o assunto.
+
+                                        </p>
+                                        <!-- Bottom Panel -->
+                                        <div
+                                            class="post_panel bottom_panel d-flex flex-row align-items-center justify-content-start">
+                                            <div class="post_meta"><a href="#">Priscila</a><span>Abr
+                                                    09, 2019 at 19:48 am</span></div>
+
+                                        </div>
+                                </div>
+
+
+                                <!-- Link geraldo -->
+                                <div class="card card_default card_small_no_image grid-item">
                                     <div class="card-body">
-                                        <div class="card-title card-title-small"><a href="artigos2.html">A princípio, para toda a vida?</a></div>
-                                        <small class="post_meta"><a href="#">Emanuelly Peres</a><span>Abr 09, 2019
+                                        <div class="card-title card-title-small"><a href="artigos.html">A princípio,
+                                                para toda a
+                                                vida?</a></div>
+                                        <small class="post_meta"><a href="#">Geraldo
+                                                Júnior</a><span>Abr 09, 2019
                                                 at 8:49 am</span></small>
                                     </div>
                                 </div>
+
+                                <!-- Link manu -->
+                                <div class="card card_default card_small_no_image grid-item">
+                                    <div class="card-body">
+                                        <div class="card-title card-title-small"><a href="artigos2.html">A princípio,
+                                                para toda a
+                                                vida?</a></div>
+                                        <small class="post_meta"><a href="#">Emanuelly
+                                                Peres</a><span>Abr 09, 2019
+                                                at 8:49 am</span></small>
+                                    </div>
+                                </div>
+
+
+                            </div>
                         </div>
                     </div>
 
@@ -253,164 +263,6 @@
                         <div class="sidebar">
                             <div class="sidebar_background"></div>
 
-                            <!-- Top Stories -->
-
-                            <div class="sidebar_section">
-                                <div class="sidebar_title_container">
-                                    <div class="sidebar_title">Top Noticias</div>
-                                    <div class="sidebar_slider_nav">
-                                        <div class="custom_nav_container sidebar_slider_nav_container">
-                                            <div class="custom_prev custom_prev_top">
-                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                    x="0px" y="0px" width="7px" height="12px" viewBox="0 0 7 12"
-                                                    enable-background="new 0 0 7 12" xml:space="preserve">
-                                                    <polyline fill="#bebebe" points="0,5.61 5.609,0 7,0 7,1.438 2.438,6 7,10.563 7,12 5.609,12 -0.002,6.39 " />
-                                                </svg>
-                                            </div>
-                                            <ul id="custom_dots" class="custom_dots custom_dots_top">
-                                                <li class="custom_dot custom_dot_top active"><span></span></li>
-                                                <li class="custom_dot custom_dot_top"><span></span></li>
-                                                <li class="custom_dot custom_dot_top"><span></span></li>
-                                            </ul>
-                                            <div class="custom_next custom_next_top">
-                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                    x="0px" y="0px" width="7px" height="12px" viewBox="0 0 7 12"
-                                                    enable-background="new 0 0 7 12" xml:space="preserve">
-                                                    <polyline fill="#bebebe" points="6.998,6.39 1.389,12 -0.002,12 -0.002,10.562 4.561,6 -0.002,1.438 -0.002,0 1.389,0 7,5.61 " />
-                                                </svg>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="sidebar_section_content">
-
-                                    <!-- Top Stories Slider -->
-                                    <div class="sidebar_slider_container">
-                                        <div class="owl-carousel owl-theme sidebar_slider_top">
-
-                                            <!-- Top Stories Slider Item -->
-                                            <div class="owl-item">
-
-                                                <!-- Sidebar Post -->
-                                                <div class="side_post">
-                                                    <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="side_post_image">
-                                                                <div><img src="public/images/crivela.PNG" alt=""></div>
-                                                            </div>
-                                                            <div class="side_post_content">
-                                                                <div class="side_post_title">
-                                                                    <a href="https://g1.globo.com/rj/rio-de-janeiro/noticia/2019/04/02/camara-do-rio-abre-processo-de-impeachment-contra-o-prefeito-marcelo-crivella.ghtml">
-                                                                        Câmara do Rio abre processo de impeachment
-                                                                        contra o prefeito Marcelo Crivella</a></div>
-                                                                <small class="post_meta">Gabriel Barreira<span>Abr 2</span></small>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-
-                                                <!-- Sidebar Post -->
-                                                <div class="side_post">
-                                                    <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="side_post_image">
-                                                                <div><img src="public/images/temer.PNG" alt=""></div>
-                                                            </div>
-                                                            <div class="side_post_content">
-                                                                <div class="side_post_title"><a href="https://g1.globo.com/rj/rio-de-janeiro/noticia/2019/04/02/michel-temer-e-moreira-franco-viram-reus-na-lava-jato-do-rio.ghtml">Michel
-                                                                        Temer, Moreira Franco e mais 12 viram réus na
-                                                                        Lava Jato no Rio</a></div>
-                                                                <small class="post_meta">Arthur Guimarães<span>Abr 2</span></small>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-
-                                            </div>
-
-                                            <!-- Top Stories Slider Item -->
-                                            <div class="owl-item">
-
-                                                <!-- Sidebar Post -->
-                                                <div class="side_post">
-                                                    <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="side_post_image">
-                                                                <div><img src="public/images/salnoraboa.PNG" alt=""></div>
-                                                            </div>
-                                                            <div class="side_post_content">
-                                                                <div class="side_post_title"><a href="https://g1.globo.com/politica/noticia/2019/04/02/bolsonaro-diz-nao-haver-duvida-de-que-nazismo-era-de-esquerda.ghtml">Bolsonaro
-                                                                        diz não ter 'dúvida' de que nazismo era de
-                                                                        esquerda</a></div>
-                                                                <small class="post_meta">G1<span>Abr 2</span></small>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-
-                                                <!-- Sidebar Post -->
-                                                <div class="side_post">
-                                                    <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="side_post_image">
-                                                                <div><img src="public/images/brumadin.PNG" alt=""></div>
-                                                            </div>
-                                                            <div class="side_post_content">
-                                                                <div class="side_post_title"><a href="https://g1.globo.com/politica/noticia/2019/04/02/engenheiros-poderao-ficar-em-silencio-na-cpi-de-brumadinho-decide-rosa-weber.ghtml">Engenheiros
-                                                                        poderão ficar em silêncio na CPI de Brumadinho,
-                                                                        decide Rosa Weber</a> </div>
-                                                                <small class="post_meta">Mariana Oliveira<span>Abr 2</span></small>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-
-                                            </div>
-
-                                            <!-- Top Stories Slider Item -->
-                                            <div class="owl-item">
-
-                                                <!-- Sidebar Post -->
-                                                <div class="side_post">
-                                                    <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="side_post_image">
-                                                                <div><img src="public/images/arm.PNG" alt=""></div>
-                                                            </div>
-                                                            <div class="side_post_content">
-                                                                <div class="side_post_title"><a href="https://g1.globo.com/rj/rio-de-janeiro/noticia/2019/04/02/arma-desaparece-em-evento-de-seguranca-com-autoridades-no-rio.ghtml">
-                                                                        Arma é furtada em evento de segurança no Rio
-                                                                        que reúne as maiores autoridades do país</a></div>
-                                                                <small class="post_meta">Alba Valéria<span>Abr 2</span></small>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-
-                                                <!-- Sidebar Post -->
-                                                <div class="side_post">
-                                                    <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="side_post_image">
-                                                                <div><img src="public/images/mc.PNG" alt=""></div>
-                                                            </div>
-                                                            <div class="side_post_content">
-                                                                <div class="side_post_title"><a href="https://g1.globo.com/sp/sao-paulo/noticia/2019/04/02/mp-abre-inquerito-para-investigar-caso-de-racismo-em-loja-do-mcdonalds-na-zona-sul-de-sp.ghtml">
-                                                                        MP abre inquérito para investigar caso de
-                                                                        racismo em loja do McDonald's na Zona Sul de SP</a></div>
-                                                                <small class="post_meta">G1<span>Abr 2</span></small>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
                             <!-- Future Events -->
 
                             <div class="sidebar_section future_events">
@@ -419,10 +271,12 @@
                                     <div class="sidebar_slider_nav">
                                         <div class="custom_nav_container sidebar_slider_nav_container">
                                             <div class="custom_prev custom_prev_events">
-                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                    x="0px" y="0px" width="7px" height="12px" viewBox="0 0 7 12"
+                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                    width="7px" height="12px" viewBox="0 0 7 12"
                                                     enable-background="new 0 0 7 12" xml:space="preserve">
-                                                    <polyline fill="#bebebe" points="0,5.61 5.609,0 7,0 7,1.438 2.438,6 7,10.563 7,12 5.609,12 -0.002,6.39 " />
+                                                    <polyline fill="#bebebe"
+                                                        points="0,5.61 5.609,0 7,0 7,1.438 2.438,6 7,10.563 7,12 5.609,12 -0.002,6.39 " />
                                                 </svg>
                                             </div>
                                             <ul id="custom_dots" class="custom_dots custom_dots_events">
@@ -431,10 +285,12 @@
                                                 <li class="custom_dot custom_dot_events"><span></span></li>
                                             </ul>
                                             <div class="custom_next custom_next_events">
-                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                    x="0px" y="0px" width="7px" height="12px" viewBox="0 0 7 12"
+                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                    width="7px" height="12px" viewBox="0 0 7 12"
                                                     enable-background="new 0 0 7 12" xml:space="preserve">
-                                                    <polyline fill="#bebebe" points="6.998,6.39 1.389,12 -0.002,12 -0.002,10.562 4.561,6 -0.002,1.438 -0.002,0 1.389,0 7,5.61 " />
+                                                    <polyline fill="#bebebe"
+                                                        points="6.998,6.39 1.389,12 -0.002,12 -0.002,10.562 4.561,6 -0.002,1.438 -0.002,0 1.389,0 7,5.61 " />
                                                 </svg>
                                             </div>
                                         </div>
@@ -452,8 +308,10 @@
                                                 <!-- Future Events Post -->
                                                 <div class="side_post">
                                                     <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                        <div
+                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                            <div
+                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
                                                                 <div class="event_day">13</div>
                                                                 <div class="event_month">abr</div>
                                                             </div>
@@ -468,8 +326,10 @@
                                                 <!-- Future Events Post -->
                                                 <div class="side_post">
                                                     <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                        <div
+                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                            <div
+                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
                                                                 <div class="event_day">15</div>
                                                                 <div class="event_month">abr</div>
                                                             </div>
@@ -486,8 +346,10 @@
                                                 <!-- Future Events Post -->
                                                 <div class="side_post">
                                                     <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                        <div
+                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                            <div
+                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
                                                                 <div class="event_day">19</div>
                                                                 <div class="event_month">abr</div>
                                                             </div>
@@ -502,13 +364,16 @@
                                                 <!-- Future Events Post -->
                                                 <div class="side_post">
                                                     <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                        <div
+                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                            <div
+                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
                                                                 <div class="event_day">24</div>
                                                                 <div class="event_month">abr</div>
                                                             </div>
                                                             <div class="side_post_content">
-                                                                <div class="side_post_title">Entrega de notas do 1º Bim</div>
+                                                                <div class="side_post_title">Entrega de notas do 1º Bim
+                                                                </div>
                                                                 <small class="post_meta">IFMS<span>Abr 2</span></small>
                                                             </div>
                                                         </div>
@@ -525,8 +390,10 @@
                                                 <!-- Future Events Post -->
                                                 <div class="side_post">
                                                     <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                        <div
+                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                            <div
+                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
                                                                 <div class="event_day">29</div>
                                                                 <div class="event_month">apr</div>
                                                             </div>
@@ -541,8 +408,10 @@
                                                 <!-- Future Events Post -->
                                                 <div class="side_post">
                                                     <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                        <div
+                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                            <div
+                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
                                                                 <div class="event_day">30</div>
                                                                 <div class="event_month">apr</div>
                                                             </div>
@@ -558,13 +427,16 @@
                                                 <!-- Future Events Post -->
                                                 <div class="side_post">
                                                     <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                        <div
+                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                            <div
+                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
                                                                 <div class="event_day">01</div>
                                                                 <div class="event_month">may</div>
                                                             </div>
                                                             <div class="side_post_content">
-                                                                <div class="side_post_title">Dia Mundial do Trabalho</div>
+                                                                <div class="side_post_title">Dia Mundial do Trabalho
+                                                                </div>
                                                                 <small class="post_meta">IFMS<span>Abr 2</span></small>
                                                             </div>
                                                         </div>
@@ -574,8 +446,10 @@
                                                 <!-- Future Events Post -->
                                                 <div class="side_post">
                                                     <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                        <div
+                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                            <div
+                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
                                                                 <div class="event_day">02</div>
                                                                 <div class="event_month">may</div>
                                                             </div>
@@ -595,8 +469,10 @@
                                                 <!-- Future Events Post -->
                                                 <div class="side_post">
                                                     <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                        <div
+                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                            <div
+                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
                                                                 <div class="event_day">03</div>
                                                                 <div class="event_month">may</div>
                                                             </div>
@@ -611,8 +487,10 @@
                                                 <!-- Future Events Post -->
                                                 <div class="side_post">
                                                     <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                        <div
+                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                            <div
+                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
                                                                 <div class="event_day">18</div>
                                                                 <div class="event_month">may</div>
                                                             </div>
@@ -627,8 +505,10 @@
                                                 <!-- Future Events Post -->
                                                 <div class="side_post">
                                                     <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                        <div
+                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                            <div
+                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
                                                                 <div class="event_day">01</div>
                                                                 <div class="event_month">jun</div>
                                                             </div>
@@ -643,8 +523,10 @@
                                                 <!-- Future Events Post -->
                                                 <div class="side_post">
                                                     <a href="post.html">
-                                                        <div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-                                                            <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                                                        <div
+                                                            class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+                                                            <div
+                                                                class="event_date d-flex flex-column align-items-center justify-content-center">
                                                                 <div class="event_day">20</div>
                                                                 <div class="event_month">jun</div>
                                                             </div>
@@ -670,6 +552,7 @@
             </div>
         </div>
 
+
         <!-- Footer -->
 
         <footer class="footer">
@@ -682,21 +565,26 @@
                                 <ul>
                                     <li class="footer_social_facebook"><a href="#"><i class="fa fa-facebook"
                                                 aria-hidden="true"></i></a></li>
-                                    <li class="footer_social_twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li class="footer_social_twitter"><a href="#"><i class="fa fa-twitter"
+                                                aria-hidden="true"></i></a></li>
                                     <li class="footer_social_pinterest"><a href="#"><i class="fa fa-pinterest"
                                                 aria-hidden="true"></i></a></li>
-                                    <li class="footer_social_vimeo"><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                                    <li class="footer_social_vimeo"><a href="#"><i class="fa fa-vimeo"
+                                                aria-hidden="true"></i></a></li>
                                     <li class="footer_social_instagram"><a href="#"><i class="fa fa-instagram"
                                                 aria-hidden="true"></i></a></li>
-                                    <li class="footer_social_google"><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                                    <li class="footer_social_google"><a href="#"><i class="fa fa-google"
+                                                aria-hidden="true"></i></a></li>
                                 </ul>
                             </div>
                             <div class="copyright">
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                 Copyright &copy;
-                                <script>document.write(new Date().getFullYear());</script> Todos os direitos reservados
-                                | Informática 7 <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                                    target="_blank">Info7</a>
+                                <script>document.write(new Date().getFullYear());</script> Todos os
+                                direitos
+                                reservados
+                                | Informática 7 <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                                    href="https://colorlib.com" target="_blank">Info7</a>
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             </div>
                         </div>
@@ -713,7 +601,8 @@
                                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="19px"
                                             height="13px" viewBox="0 0 19 13" enable-background="new 0 0 19 13"
                                             xml:space="preserve">
-                                            <polygon fill="#FFFFFF" points="12.475,0 11.061,0 17.081,6.021 0,6.021 0,7.021 17.038,7.021 11.06,13 12.474,13 18.974,6.5 " />
+                                            <polygon fill="#FFFFFF"
+                                                points="12.475,0 11.061,0 17.081,6.021 0,6.021 0,7.021 17.038,7.021 11.06,13 12.474,13 18.974,6.5 " />
                                         </svg>
                                     </button>
                                 </form>
